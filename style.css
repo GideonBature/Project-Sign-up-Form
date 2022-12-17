@@ -6,6 +6,11 @@
 :root {
     --createAccountBtn: #596D48;
     --inputsBorderColor: #E5E7EB;
+    --top-color: #f9fafb;
+    --middle-color: #ffffff;
+    --bottom-color: #f9fafb;
+    --red: #b91c1c;
+    --blue: #1d4ed8;
 }
 
 
@@ -16,10 +21,63 @@
 .img-content {
     background-image: url(bg_img.jpg);
     background-size: cover;
-    width: 50vw;
+    width: 30vw;
     height: 100vh;
 }
 
-span img {
-    width: 70px;
+img {
+    width: 90px;
 }
+
+.logo-container {
+    display: flex;
+    color: white;
+    font-family: 'Norse';
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20vh;
+}
+
+.logo-name {
+    font-size: 90px;
+}
+
+.form-content {
+    height: 100vh;
+    width: 100hw;
+}
+
+.form-content-text {
+    background-color: var(--top-color);
+    padding: 90px 100px 100px 40px;
+    height: 10vh;
+}
+
+p:last-child {
+    line-height: 80px;
+}
+
+form {
+    padding: 20px 100px 100px 40px;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    padding: 10px 100px 0px 40px;
+}
+
+.first-name, .last-name, .email, .phone, .password, .cpassword{
+    padding: 10px 0;
+    flex: 0 0 50%;
+}
+
+input {
+    width: 300px; /* Increase the width of the input box */
+    height: 30px; /* Increase the height of the input box */
+  }
+  
