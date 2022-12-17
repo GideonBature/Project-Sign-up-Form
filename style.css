@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --createAccountBtn: #596D48;
+    --inputsBorderColor: #E5E7EB;
+}
+
+
+#container {
+    display: flex;
+}
+
+.img-content {
+    background-image: url(bg_img.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+}
+
+span img {
+    width: 70px;
+}
