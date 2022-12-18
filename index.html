@@ -45,7 +45,7 @@
 
                 <div class="phone">
                     <label for="phone-number">Phone Number</label><br>
-                    <input type="tel" name="email" id="phone-number" required pattern="+\d{11,14}">
+                    <input type="tel" name="phone" id="phone-number" required pattern="\d{11,14}" title="Please use only Numbers (atleast 11 digits)">
                 </div>
                 
                 <div class="password">
@@ -56,12 +56,13 @@
                     <label for="cpassword">Confirm Password</label><br>
                     <input type="password" name="cpassword" id="cpassword" required>
                 </div>
+
                 <div id="errorMessage" style="display:none; color:red">Passwords does not match</div>
 
+                
                 <div class="btn"><br>
                     <button type="submit">Create Account</button>
                 </div>
-
 
             </form>
             <p class="footer">Already Have an account? <a href="#login">Log in</a></p>

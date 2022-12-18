@@ -107,6 +107,10 @@ input:focus {
     box-shadow: 1px 1px 10px #3d3d3d;
 }
 
+#errorMessage {
+    margin-right: 40vw;
+}
+
 .footer {
     margin: 70px 45px;
 }
@@ -141,6 +145,10 @@ input:focus {
         width: 100vw;
         height: 40vh;
     }
+
+    #errorMessage {
+        margin-right: 30vw;
+    }
     .credit {
         color: var(--middle-color);
         margin-top: 0vh;
@@ -154,7 +162,7 @@ input:focus {
         height: 20vh;
     }
     .footer {
-        margin: 280px 40px;
+        margin: 300px 40px;
     }
 
   }
