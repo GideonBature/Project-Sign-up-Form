@@ -28,11 +28,11 @@
             <form action="">
                 <div class="first-name">
                     <label for="first-name">First Name</label><br>
-                    <input type="text" name="first-name" id="first-name" required>
+                    <input type="text" name="first-name" id="first-name" required pattern="\w{2,20}" title="Please use only Alphabets (at least 2)">
                 </div>
                 <div class="last-name">
                     <label for="last-name">Last Name</label><br>
-                    <input type="text" name="last-name" id="last-name" required>
+                    <input type="text" name="last-name" id="last-name" required pattern="\w{2,20}" title="Please use only Alphabets (at least 2)">
                 </div>
 
                 <div class="email">
@@ -42,18 +42,18 @@
 
                 <div class="phone">
                     <label for="phone-number">Phone Number</label><br>
-                    <input type="tel" name="email" id="phone-number" required>
+                    <input type="tel" name="email" id="phone-number" required pattern="+\d{11,14}">
                 </div>
                 
                 <div class="password">
                     <label for="password">Password</label><br>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password" required pattern="\d{6,20}" title="Must be atleast 6 (numbers)">
                 </div>
                 <div class="cpassword">
                     <label for="cpassword">Confirm Password</label><br>
                     <input type="password" name="cpassword" id="cpassword" required>
                 </div>
-                <div id="errorMessage" style="display:none; color:red">The password and confirm password fields do not match</div>
+                <div id="errorMessage" style="display:none; color:red">Passwords does not match</div>
 
                 <div class="btn"><br>
                     <button type="submit">Create Account</button>

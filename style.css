@@ -94,6 +94,14 @@ button {
     font-size: large;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #294d0a;
+}
+
 input:focus {
     border-color: var(--blue);
     box-shadow: 1px 1px 10px #3d3d3d;
