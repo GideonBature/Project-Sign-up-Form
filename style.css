@@ -111,8 +111,18 @@ input:focus {
     margin: 70px 45px;
 }
 
-a:link {
+.footer > a:link {
     color: var(--createAccountBtn);
     font-weight: bolder;
     text-decoration: none;
+}
+
+.credit {
+    color: var(--middle-color);
+    margin-top: 50vh;
+    text-align: center;
+}
+
+.c-white {
+    color: var(--middle-color);
 }
