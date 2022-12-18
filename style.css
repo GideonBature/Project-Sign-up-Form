@@ -126,3 +126,35 @@ input:focus {
 .c-white {
     color: var(--middle-color);
 }
+
+/* Adjust layout for screens 600px or smaller */
+@media (max-width: 600px) {
+    #container {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .img-content {
+        background-image: url(bg_img.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 40vh;
+    }
+    .credit {
+        color: var(--middle-color);
+        margin-top: 0vh;
+        text-align: center;
+    }
+
+    .logo-container {
+
+        margin-top: 80px;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 20vh;
+    }
+    .footer {
+        margin: 280px 40px;
+    }
+
+  }
